@@ -1,0 +1,11 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "U2TRX2TDTR.com.phonepe.assosicateddomainstest",
+				"paths": [ "*"]
+			}
+		]
+	}
+}
