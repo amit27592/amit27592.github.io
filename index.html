@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Cool App</title>
+</head>
+<body>
+    
+    <button onclick="navigate()">PAY</button>
+</body>
+<script type="text/javascript">
+    // setTimeout(() => {
+    //     var div = document.getElementById('redirect-div');
+    //     div.click();
+    // }, 1000);
+    function navigate() {
+        var url ="phonepe://";
+        window.location = url;
+        setTimeout(function() {
+            window.location = 'http://google.co.in'
+        }, 5000);
+    }
+    
+</script>
+</html>
